@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box
+        {
+            border: 2pxsolid  black;
+            background-color: rgb(172, 65, 35);
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            box-shadow: 0px 1px 10px 10px red;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-oucubic-bezier(0.11, 1.1, 0.93, 0.09);
+        }
+        .box:hover
+        {
+            background-color: antiquewhite;
+            box-shadow: 0px 1px 10px 10px wheat;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="black">
+    <div class="box"></div>
+</body>
+</html>

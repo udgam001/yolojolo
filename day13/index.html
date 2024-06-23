@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent
+        {
+            background-color: lightskyblue;
+            height: 200px;
+            width: 200px;
+            
+            margin: auto;
+        }
+        .box
+        {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            transition: all 1s;
+        }
+        .box:hover{
+            /* transform: rotate(20deg); */
+            /* transform: skew(90deg); */
+            transform: translate(100px,100px);
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="parent"> <div class="box"></div></div>
+</body>
+</html>
